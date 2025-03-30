@@ -121,3 +121,50 @@ app.*.symbols
 # fvm
 .fvm/
 
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+*.iws
+*.ipr
+.settings/
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Các file cấu hình cụ thể cho người dùng
+.env
+.env.local
+*.env.production
+
+# Web related
+lib/generated_plugin_registrant.dart
+web/firebase-messaging-sw.js
+
+# Fastlane specific
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code coverage
+lcov.info
+
+# Flutter version manager
+.fvmrc
+
+# Generated files từ build_runner
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Thư mục cache
+.pub-cache/
+
+# Generated screenshots từ test
+**/failures/*.png
+
